@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM</title>
+  </head>
+  <body>
+    <form>
+      <h1>Our Services Login</h1>
+      <p>Username:</p>
+      <input type="text" />
+
+      <p>Password:</p>
+      <input type="password" />
+
+      <p>City of Employment:</p>
+      <input type="text" />
+
+      <p>Web server</p>
+      <select>
+        <option value="">Server 01</option>
+        <option value="">Server 02</option>
+        <option value="">Server 03</option>
+      </select>
+
+      <p>Please specify your role:</p>
+      <input type="radio" name="role" id="admin" value="Admin" />
+      <label for="admin">Admin</label>
+      <br />
+      <input type="radio" name="role" id="engineer" value="Engineer" />
+      <label for="engineer">Engineer</label>
+      <br />
+      <input type="radio" name="role" id="manager" value="Manager" />
+      <label for="manager">Manager</label>
+      <br />
+      <input type="radio" name="role" id="guest" value="MaiGuestl" />
+      <label for="guest">Guest</label>
+
+      <p>Single Sign-on to the following</p>
+      <input type="checkbox" name="mail" id="mail" value="Mail" />
+      <label for="mail">Mail</label>
+      <br />
+      <input type="checkbox" name="payroll" id="payroll" value="Payroll" />
+      <label for="payroll">Payroll</label>
+      <br />
+      <input
+        type="checkbox"
+        name="self-service"
+        id="self-service"
+        value="Mail"
+      />
+      <label for="self-service">Self-service</label>
+      <br />
+      <br />
+      <input type="submit" value="Login" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
